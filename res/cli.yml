@@ -1,0 +1,18 @@
+name: Jeopardy 1
+version: "1.0"
+author: Patrick Luck <archer920@gmail.com>
+about: First iteration of Jeopardy in Rust
+args:
+    - game_board:
+        short: b
+        long: game-board
+        value_name: game_board
+        help: YML file containing the game board definition
+        takes_value: true
+    - debug:
+        short: d
+        long: debug
+        value_name: debug
+        help: Show debuging information
+        possible_values: [ none, trace ]
+        takes_value: true
